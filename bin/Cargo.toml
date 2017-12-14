@@ -42,6 +42,7 @@ procinfo = "^0.4.1"
 
 [features]
 unstable = []
+use_openssl = ["sozu-lib/use_openssl"]
 
 [badges]
 travis-ci = { repository = "sozu-proxy/sozu" }

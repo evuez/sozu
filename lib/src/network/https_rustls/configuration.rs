@@ -36,7 +36,7 @@ use network::session::{BackendConnectAction,BackendConnectionStatus,ProxyClient,
 use network::http::{self,DefaultAnswers};
 use network::socket::{SocketHandler,SocketResult,server_bind,FrontRustls};
 use network::trie::*;
-use network::protocol::{ProtocolResult,RustlsHandshake,Http,Pipe,StickySession};
+use network::protocol::{ProtocolResult,TlsHandshake,Http,Pipe,StickySession};
 use network::protocol::http::DefaultAnswerStatus;
 use network::retry::RetryPolicy;
 use util::UnwrapLog;
